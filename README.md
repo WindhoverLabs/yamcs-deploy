@@ -22,5 +22,6 @@ The installation will be saved under `/opt/yamcs`.
 - `yamcsadmin` for yamcs admin tools.
 - `yamcsd` for running yamcs instances.
  
+**TODO**: Document steps for `install_openmct.sh`
  
- Documentation updated on December 1, 2020.
+Documentation updated on December 1, 2020.

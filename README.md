@@ -9,7 +9,7 @@ Scripts to easily deploy instances of YAMCS with openMCT
 ```
 git clone https://github.com/WindhoverLabs/yamcs-deploy.git
 cd yamcs-deploy
-source ./installl_yamcs
+source ./install_yamcs
 ```
 This script is known to work on `Ubuntu 20.04.1 LTS`.
 

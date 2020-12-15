@@ -12,5 +12,4 @@ export YAMCS_VERSION=5.1.4
 wget https://github.com/yamcs/yamcs/releases/download/yamcs-${YAMCS_VERSION}/yamcs-${YAMCS_VERSION}-1.x86_64.rpm
 sudo useradd -r yamcs # Could be used to isolate our yamcs installation on system
 sudo alien --scripts -i yamcs-${YAMCS_VERSION}-1.x86_64.rpm
-export PATH=$PATH:/opt/yamcs/bin
 rm yamcs-${YAMCS_VERSION}-1.x86_64.rpm

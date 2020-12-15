@@ -19,9 +19,8 @@ make tutorial/cfs
 # Install YAMCS
 cd ~/git
 git clone https://github.com/WindhoverLabs/yamcs-deploy.git
-git checkout install_yamcs
 cd yamcs-deploy
-git checkout install_yamcs
+git checkout yamcs_sandbox
 ./install_yamcs.sh
 sudo sh -c 'echo export PATH=\${PATH}:/opt/yamcs/bin > /etc/profile.d/yamcs.sh'
 sudo chmod 644 /etc/profile.d/yamcs.sh
@@ -36,8 +35,7 @@ git checkout update-yamcs-tools
 # Setup YAMCS workspace
 cd ~/git
 mkdir yamcs-workspace
-sudo cp /opt/yamcs/etc/* ~/git/yamcs-workspace
-sudo cp yamcs-cfs/src/main/yamcs/etc/* ~/git/yamcs-workspace
+sudo cp -r yamcs-cfs/src/main/yamcs/etc/ ~/git/yamcs-workspace
 sudo chown -R ${USER}:${GROUP} ~/git/yamcs-workspace/
 
 # All done

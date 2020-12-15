@@ -1,5 +1,5 @@
 # yamcs-deploy
-Scripts to easily deploy instances of YAMCS with openMCT
+Scripts to easily deploy instances of YAMCS with openMCT  
 **NOTE**: These scripts are known to work on `20.04.1 LTS`
 
 

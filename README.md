@@ -1,6 +1,6 @@
 # yamcs-deploy
 Scripts to easily deploy instances of YAMCS with openMCT  
-**NOTE**: These scripts are known to work on `20.04.1 LTS`
+**NOTE**: These scripts are known to work on `Ubuntu 20.04.1 LTS`
 
 
 1. [Quick Start](#quick_start)

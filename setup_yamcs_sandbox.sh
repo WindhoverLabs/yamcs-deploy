@@ -8,7 +8,7 @@ mkdir ~/git
 cd ~/git
 git clone https://github.com/WindhoverLabs/airliner.git
 cd airliner
-git checkout integrate_outstanding_branches
+git checkout develop
 
 # Install additional flight software prerequisites
 sudo pip3 install -r core/tools/requirements.txt

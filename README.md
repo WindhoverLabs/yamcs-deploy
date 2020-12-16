@@ -8,8 +8,9 @@ Scripts to easily deploy instances of YAMCS with openMCT
 
 
 ## Quick Start<a name="quick_start"></a>
-To Get a training environment with real flight software and a ground system quickly, run the following
-1. ```
+1. To Get a training environment with real flight software and a ground system quickly, run the following
+ 
+```
 cd yamcs-deploy
 chmod +x ./setup_yamcs_sandbox.sh
 ./setup_yamcs_sandbox.sh

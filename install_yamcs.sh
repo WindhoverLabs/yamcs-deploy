@@ -9,6 +9,9 @@ sudo apt-get install -y default-jdk
 
 export YAMCS_VERSION=5.1.4
 
+#TODO: Move YAMCS installation to directory that is owned by yamcs group
+#TODO:Copy All config directories to non-root directories.
+
 wget https://github.com/yamcs/yamcs/releases/download/yamcs-${YAMCS_VERSION}/yamcs-${YAMCS_VERSION}-1.x86_64.rpm
 sudo useradd -r yamcs # Could be used to isolate our yamcs installation on system
 sudo alien --scripts -i yamcs-${YAMCS_VERSION}-1.x86_64.rpm
